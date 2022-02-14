@@ -2,14 +2,17 @@ public class HWfor {
     public static void main(String[] args) {
 
 
-//    public static int getMultiplicity (i) {
-//        int multiplicity;
-//        return (i % 4 == 0);
-//}
-        int i;
-        for (i = 100; i > 0; i = i - 1) ;
-        System.out.println("Цифры, кратные 4 от 100 до 1: " + i);
+        for (int j = 100; j >= 1; j--){
+            int multiply = getMultiply;
+            System.out.print(multiply + " ");
+        }
 
+        public static int getMultiply(int j)  {
+            return j if (j % 4 == 0);
+        }
     }
 
 }
+
+
+//            if (j % 4 == 0)
