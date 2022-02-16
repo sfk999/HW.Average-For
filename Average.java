@@ -14,12 +14,12 @@ public class Average {
 
         while (i <= k) {
             sum += i;
-            ++i;
             ++count;
             if (i % 2 == 0) {
                 sumEvenNumbers += i;
                 ++countEvenNumbers;
             }
+            ++i;
             }
         System.out.println("Среднее арифметическое чисел равно " + sum / count);
         System.out.println("Среднее арифметическое четных чисел равно " + sumEvenNumbers / countEvenNumbers);
