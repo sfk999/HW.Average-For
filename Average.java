@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Average {
     public static void main(String[] args) {
-        int sum = 0;
+        double sum = 0;
         int sumEvenNumbers = 0;
         int countEvenNumbers = 0;
         int count = 0;
