@@ -22,6 +22,6 @@ public class Average {
             ++i;
             }
         System.out.println("Среднее арифметическое чисел равно " + (double) sum / count);
-        System.out.println("Среднее арифметическое четных чисел равно " + sumEvenNumbers / countEvenNumbers);
+        System.out.println("Среднее арифметическое четных чисел равно " + (double) sumEvenNumbers / countEvenNumbers);
         }
     }
